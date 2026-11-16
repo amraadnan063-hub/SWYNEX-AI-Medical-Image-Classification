@@ -94,6 +94,43 @@ The expected outcome is a functional AI-powered medical image classification pro
 
 The project will be developed progressively through four internship tasks, starting with problem design and progressing toward a complete AI application.
 
+## Dataset Information
+
+**Dataset Name:** Chest X-Ray Images (Pneumonia)
+
+**Source:** Kaggle – Paul Mooney
+
+**Dataset Link:** https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia
+
+**Original Source:** Mendeley Data
+
+**DOI:** 10.17632/rscbjbr9sj.2
+
+**License:** CC BY 4.0
+
+**Image Format:** JPEG
+
+**Dataset Categories:**
+- NORMAL
+- PNEUMONIA
+
+**Dataset Structure:**
+- train/
+  - NORMAL/
+  - PNEUMONIA/
+- test/
+  - NORMAL/
+  - PNEUMONIA/
+- val/
+  - NORMAL/
+  - PNEUMONIA/
+
+The dataset page reports 5,863 images. The local folder structure has been checked, and both categories contain images in all three folders.
+
+**Usage:** This dataset will be used to develop and evaluate an educational chest X-ray image classification model.
+
+**Disclaimer:** This project is for educational and research purposes only and is not intended for clinical diagnosis.
+
 ---
 
 **Project:** AI-Powered Medical Image Classification System
