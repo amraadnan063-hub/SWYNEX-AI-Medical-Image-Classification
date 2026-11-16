@@ -57,6 +57,32 @@ SWYNEX-AI-Medical-Image-Classification/
 
 *Note: The project structure represents the planned organization. Additional files and folders will be added during development.*
 
+
+## Dataset
+
+This project uses the **Chest X-Ray Images (Pneumonia)** dataset by Paul Mooney, available on Kaggle.
+
+- **Dataset Link:** https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia
+- **Original Source:** Mendeley Data
+- **DOI:** 10.17632/rscbjbr9sj.2
+- **Reported Images:** 5,863
+- **Image Format:** JPEG
+- **Classes:** NORMAL and PNEUMONIA
+- **License:** CC BY 4.0
+
+### Dataset Structure
+
+- `train/` – Training images
+- `test/` – Testing images
+- `val/` – Validation images
+
+Each folder contains `NORMAL` and `PNEUMONIA` subfolders.
+
+The dataset folder structure and image availability have been verified locally.
+
+**Disclaimer:** This project is for educational and research purposes only. It is not intended to replace professional medical diagnosis.
+
+
 ## Project Status
 
 Currently in progress – Task 1: AI Problem Design.
@@ -68,10 +94,6 @@ Currently in progress – Task 1: AI Problem Design.
 **Program:** Artificial Intelligence Internship
 
 **Intern:** Amra Adnan
-
-## Disclaimer
-
-This project is intended for educational and research purposes only. It is not a clinically validated diagnostic system and must not be used as a substitute for professional medical advice or diagnosis.
 
 ---
 
